@@ -1,0 +1,35 @@
+{
+  "name": "arthur",
+  "version": "1.0.0",
+  "description": "Authentication system",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quocthuan251/arthur.git"
+  },
+  "author": "quocthuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quocthuan251/arthur/issues"
+  },
+  "homepage": "https://github.com/quocthuan251/arthur#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  }
+}
